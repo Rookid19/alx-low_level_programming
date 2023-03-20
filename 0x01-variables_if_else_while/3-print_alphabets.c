@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	char a;
+	char letter;
 
 	while ('a' != '{')
 	{

@@ -11,14 +11,17 @@ int main(void)
 {
 	char a;
 
-	for (a = 'a'; a <= 'z'; a++)
+	while ('a' != '{')
 	{
-		putchar(a);
+		putchar (letter);
+		letter++;
 	}
-	for (a = 'A'; a <= 'Z'; a++)
+	while ('A' != '[')
 	{
-		putchar(a);
+		putchar (letter);
+		letter++;
 	}
+
 	putchar('\n');
 	return (0);
 }

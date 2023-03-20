@@ -15,7 +15,7 @@ int main(void)
 
 	while (alphabet != '{')
 	{
-		putchar(a);
+		putchar(alphabet);
 		alphabet++;
 	}
 	putchar('\n');

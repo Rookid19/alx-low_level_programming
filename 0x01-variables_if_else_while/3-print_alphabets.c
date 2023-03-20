@@ -1,27 +1,29 @@
 #include <stdio.h>
 
 /**
- * main - print string
+ * main - Entry point
  *
- * Description: use printf to print string
+ * Description: Prints the alphabet using ascii values.
  *
- * Return: 0 for success
+ * Return: Always 0
  */
+
 int main(void)
 {
-	char letter;
+	char alphabet;
 
-	while ('a' != '{')
+	alphabet = 'a';
+	while (letter != '{')
 	{
-		putchar (letter);
-		letter++;
+		putchar (alphabet);
+		alphabet++;
 	}
-	while ('A' != '[')
+	alphabet = 'A';
+	while (alphabet != '[')
 	{
-		putchar (letter);
-		letter++;
+		putchar (alphabet);
+		alphabet++;
 	}
-
 	putchar('\n');
 	return (0);
 }

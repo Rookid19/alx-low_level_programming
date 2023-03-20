@@ -13,7 +13,7 @@ int main(void)
 	char alphabet;
 
 	alphabet = 'a';
-	while (letter != '{')
+	while (alphabet != '{')
 	{
 		putchar (alphabet);
 		alphabet++;

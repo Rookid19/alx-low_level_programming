@@ -11,9 +11,9 @@
 
 int main(void)
 {
-	char a;
+	char alphabet = 'a';
 
-	while ('a' != '{')
+	while (alphabet != '{')
 	{
 		putchar(a);
 		a++;

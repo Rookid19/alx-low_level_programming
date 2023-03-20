@@ -13,7 +13,7 @@ int main(void)
 {
 	char a;
 
-	while (a != '}')
+	while ('a' != '`')
 	{
 		putchar(a);
 		a++;

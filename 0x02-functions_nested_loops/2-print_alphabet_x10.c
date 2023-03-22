@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet_x10 - print with func
  *
- * print_alphabet_x10 - Print the alphabet 10 times
  */
-
 void print_alphabet_x10(void)
 {
 	int letter;

@@ -12,12 +12,12 @@ void rev_string(char *s)
 	int start;
 	char rev;
 
-	for (length = 1; s[len]; length++)
+	for (length = 1; s[length]; length++)
 	{}
 
 	for (start = 0; start < length; start++, length--)
 	{
-		rev = s[len - 1];
+		rev = s[length - 1];
 		s[length - 1] = s[start];
 		s[start] = rev;
 	}
